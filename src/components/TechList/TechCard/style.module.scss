@@ -1,0 +1,53 @@
+.divCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 45.75rem;
+    background-color: var(--color-grey4);
+    border-radius: 4px;
+    align-items: center;
+    width: 100%;
+    padding: 13px 23px;
+
+    @media (max-width: 18.75rem){
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 13px 17px;
+    }
+}
+
+.divCard2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    > div {
+        display: flex;
+        align-items: center;
+        gap: .625rem;
+    }
+
+    @media (max-width: 18.75rem){
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.titleTech {
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: .8881rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3959rem;
+}
+
+.titleStatus {
+    color: var(--color-grey1);
+    text-align: right;
+    font-family: var(--font-primary);
+    font-size: .7614rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.334px;
+}
